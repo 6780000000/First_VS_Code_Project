@@ -1,12 +1,41 @@
-body{
-  background-color: rgb(87, 150, 150);
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.card1 {
-  border: 1px solid #466995;
-  margin: 20px;
-  display: inline-block;
+body {
+  color: black;
+  font-family: san-serif;
+  height: 1200px;
+}
+.block{
+  height: 10rem;
+  width: 10rem;
+  margin: 1rem;
+  color: white;
+  text-align: center;
+  font-size:5rem;
+
+}
+.block1{
+  background-color:red;
+}
+.block2{
+  background-color: blue
+}
+.block3{
+  background-color:green;
+}
+a{  
+  margin:1rem;
+  padding:1rem;
   
 }
-.img1{
-  width: : 100%;
+.card{  
+ 
+  margin: 1rem;
+  color: white;
+  text-align: center;
+  font-size:10rem;
+   display:inline-block;
 }
